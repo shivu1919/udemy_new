@@ -1,0 +1,51 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.4rem;
+}
+
+#search{
+    background-image: url(icons8-search-50.png);
+    background-repeat: no-repeat;
+    width:20rem;
+    background-size: 24px;
+    background-position: 12px 12px;
+    height: 3rem;
+    border-radius: 3rem;
+    padding-left: 2.5rem;
+    border: 1px solid black
+}
+
+#loginbtn{
+    width:4rem;
+    height:2.5rem;
+    border: 1px solid black;
+    background-color: white;
+    
+}
+
+#signupbtn{
+    width:4rem;
+    height:2.5rem;
+    background-color: black;
+    color:white;
+
+}
+
+#menu{
+    display: none;
+}
+
+
+@media (max-width:930px){
+    .hidden{
+        display: none;
+    }
+
+    #menu{
+        display: block;
+    }
+}
+
+
