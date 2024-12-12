@@ -1,3 +1,16 @@
+body{
+    padding: 15px;
+    background-color: aliceblue;
+}
+
+span{
+    cursor: pointer;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .header{
     display: flex;
     align-items: center;
@@ -36,6 +49,84 @@
 #menu{
     display: none;
 }
+
+.carousel-control-prev-icon{
+    background-color:black;
+}
+
+.carousel-control-next-icon{
+    background-color:black;
+}
+
+
+.courses{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+.detailed_course{
+    display: flex;
+   
+    column-gap: 20px;
+    row-gap:10px;
+    flex-wrap: wrap;
+}
+
+#card1{
+    border:1px solid black;
+    box-shadow: 2px 2px  red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px;
+    align-items: left;
+    width:350px;
+}
+
+.logo_container{
+    
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    column-gap:5rem;
+    row-gap: 10px;
+}
+
+.goals{
+    display: flex;
+    
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.plans{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#plan1{
+    border-top:10px solid purple;
+    border-left: 1px solid #bbb;
+    border-right:1px solid #bbb; 
+    border-bottom: 1px solid #bbb;
+    padding:15px;
+    border-radius: 5px;
+}
+
+#goals1_1{
+    border-left:10px solid purple;
+    background-image: url(https://cms-images.udemycdn.com/96883mtakkm8/7kN9RBFSMFNHzsGWsElMPi/dde73f8d1c47e046f035274e78410590/hands-on-practice.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    padding:30px;
+}
+
 
 
 @media (max-width:930px){
